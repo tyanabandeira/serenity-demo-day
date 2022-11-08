@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+    <title>21 Savage Fan Site</title>
+    <!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="journal.css">
+</head>
+<body class="journaling">
+
+  <nav>
+    <!-- <a href="#"><img src="./img/logo-color.jpg"></a> -->
+    <div class="nav-links">
+      <ul>
+        <li><a href="/profile">HOME</a></li>
+        <li><a href="/mood">MOOD TRACKER</a></li>
+        <!-- <li><a href="/journal">DAILY JOURNAL</a></li> -->
+        <li><a href="/progress">PROGRESS</a></li>
+        <li><a href="/logout">LOGOUT</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+
+<section class="dailyJournal"></section>
+  <h2>Morning Journal</h2>
+<form>
+  
+  <textarea type="text" placeholder="I am grateful for..."></textarea>
+ 
+  <textarea type="text" placeholder="Daily Affirmations"></textarea>
+
+  <textarea type="text" placeholder="What does my soul need today?"></textarea>
+ 
+  <textarea type="text" placeholder="How can I make today better than yesterday?"></textarea>
+
+  <textarea type="text" placeholder="What are three things I want to accomplish today?"></textarea>
+</form>
+</section>
+
+
+
+<section class="nightJournaling">
+  <h2>Night Journal</h2>
+  <form>
+  
+    <textarea type="text" placeholder="I am grateful for..."></textarea>
+   
+    <textarea type="text" placeholder="Daily Affirmations"></textarea>
+  
+    <textarea type="text" placeholder="What does my soul need today?"></textarea>
+   
+    <textarea type="text" placeholder="How can I make today better than yesterday?"></textarea>
+  
+    <textarea type="text" placeholder="What are three things I want to accomplish today?"></textarea>
+      <button>Submit</button>
+  </form>
+
+
+
+  <!-- TO DO LIST -->
+  <section class="list">
+    <section>
+    <h1>To-Do List</h1>
+  </section>
+  
+  
+  <input id="task" type="text" onfocus="this.value=''" placeholder="eg., Meeting today at 1:00PM">
+  
+  <section class="buttons">
+  <button id="addTaskToList">Add task</button>
+  <button id="clearList">Clear list</button>
+  <button id="completedTask">Clear completed tasks</button>
+  </section>
+  
+  <ul id="taskList"></ul>
+  
+  <p class="update"></p>
+  <p class="count"></p>
+  </section>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="main.js"></script>
+</body>
+</html>

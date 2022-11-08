@@ -1,0 +1,221 @@
+body{
+  background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(./img/beach.jpg);;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav{
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link{
+  flex:1;
+  text-align: right;
+ 
+}
+
+.nav-links ul li{
+  list-style:none;
+  display:inline-block;
+  padding: 8px 12px;
+  position:relative;
+   font-family: sans-serif;
+}
+
+.nav-links ul li a{
+  color:white;
+  text-decoration: none;
+  font-size:13px;
+}
+
+.nav-links ul li::after{
+  content: '';
+  width:0%;
+  height:2px;
+  background: #fff;
+  display:block;
+  margin:auto;
+  transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+  width:100%;
+}
+
+
+/* TEXT */
+
+
+
+
+
+
+
+textarea {
+  font-family: sans-serif;
+  -webkit-box-flex: 0.85;
+  flex-grow: 0.85;
+  color: rgb(243, 246, 248);
+  caret-color: rgb(155, 163, 176);
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  height: calc(10vh - 10px);
+  width: 50%;
+  border: none;
+  resize: none;
+  outline: none;
+  font-size: 1rem;
+  border-radius: 1px;
+  margin-top: 0.75rem;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  animation: 0.2s ease-in 0s 1 normal none running animation-plwpox;
+  font-family: sans-serif;
+}
+
+h2{
+  color:white;
+  font-family: sans-serif;
+}
+
+
+
+/* TO DO LIST */
+
+#task {
+  padding: 1%;
+  width: 24%;
+  border: 0.5px;
+  border-radius: 4px;
+}
+
+.buttons{
+  margin-left: 0%;
+  margin-top: 0.5%;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+  margin-left: -4%;
+  font-size: 1.7rem;
+  color:white;
+}
+
+#addTaskToList{
+  padding: 0.5%;
+  border-radius: 4px;
+  border: 1px;
+}
+
+#clearList{
+  padding: 0.5%;
+  border-radius: 4px;
+  border:1px; 
+ }
+
+#completedTask{
+  padding: .5%;
+  border-radius: 4px;
+  border:1px;
+}
+
+.list h1{
+  color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* text-align: center;
+  height:100%;
+  width:100%;
+} 
+/*  */
+/* section h1 {
+  font-family: 'Dancing Script', cursive;
+  margin-top: 4%;
+  font-size: 4rem;
+  text-align: center;
+  margin-left: 10%;
+} */
+/* 
+#task {
+  padding: 1%;
+  width: 24%; */
+/* border: 0.5px; */
+/* border-radius: 4px;
+  margin-left: 10%;
+}
+
+#addTaskToList{
+  padding: 0.5%;
+  border-radius: 4px;
+  /* border: 1px; */
+/* margin-left: 10%;
+  border:1px;
+}
+
+#clearList{
+  padding: 0.5%;
+  border-radius: 4px;
+  margin-top: 30%;
+  margin-left: 0%;
+  border:1px; */
+/* }
+
+#completedTask{
+  padding: .5%;
+  border-radius: 4px;
+  margin-top:24%;
+  border:1px;
+}
+
+.buttons{
+  color:blue;
+  margin-top: -29%;
+}
+
+ul{
+  margin-top: 3%;
+  /* text-align: left; */
+/* margin-left: -15%;
+} */
+
+.strike {
+  text-decoration: line-through;
+}
